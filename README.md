@@ -14,3 +14,4 @@ after PIMNN removed the internal physical equations from the model.
 after removing all the physical equations from both the internal physical equations of the PIMNN model and the loss function.
 
 # Dataset Usage Instructions:
+The compressed files in the dataset need to be fully decompressed into the directory of the dataset file.
