@@ -1,1 +1,3 @@
 dataset
+ 
+The compressed files in the dataset need to be fully decompressed into the directory of the dataset file.
