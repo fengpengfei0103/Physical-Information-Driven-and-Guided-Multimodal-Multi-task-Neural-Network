@@ -1,7 +1,10 @@
-'PINNMutilModelUnetStability_epoch_100.pth'represents the model parameters of the PIMNN training process after 100 epochs.
+'mutilcontrolValueAndStabilityModelUnetPINNRE.py'represents the model code of the PIMNN.
 
-'NonPLossBaselineMutilModelUnetStability_epoch_100.pth'represents the model parameters obtained after PIMNN removed the physical equations from the loss function and trained for 100 epochs.
+'mutilcontrolValueAndStabilityModelUnetRENonPLoss.py'represents the model code obtained 
+after PIMNN removed the physical equations from the loss function.
 
-'NonInPhysicBaselineMutilModelUnetStability_epoch_100.pth'represents the model parameters obtained after PIMNN removed the internal physical equations from the model and trained for 100 epochs.
+'mutilcontrolValueAndStabilityModelUnetRENonInPhysic.py'represents the model code obtained 
+after PIMNN removed the internal physical equations from the model.
 
-'BaselineMutilModelUnetStability_epoch_100.pth'represents the model parameters obtained after removing all the physical equations from both the internal physical equations of the PIMNN model and the loss function, and training for 100 epochs.
+'mutilcontrolValueAndStabilityModelUnetRE.py'represents the model code obtained 
+after removing all the physical equations from both the internal physical equations of the PIMNN model and the loss function.
