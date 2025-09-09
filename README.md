@@ -21,6 +21,11 @@ the model 'mutilcontrolVmutilcontrolValueAndStabilityModelUnetPINNRE' with the C
 the code for replacing the stability prediction branch part of 
 the model 'mutilcontrolVmutilcontrolValueAndStabilityModelUnetPINNRE' with the ConvLSTM model.
 
+'mutilcontrolValueAndStabilityModelUnetPINNRE_FineTuning.py' represents 
+a two-stage training strategy is employed: simulation data are first applied pre-train the network, 
+and real monitoring data are subsequently utilized for fine-tuning, 
+thereby enhancing the generalizability and applicability of the framework to real-world conditions.
+
 # Dataset Usage Instructions:
 The compressed files in the dataset need to be fully decompressed into the directory of the dataset file.
 
